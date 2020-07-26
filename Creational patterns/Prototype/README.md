@@ -2,7 +2,7 @@
 
 ## Описание    
 Паттерн Прототип позволяет создавать объекты на основе уже ранее созданных объектов-прототипов.    
-![Иллюстрация к проекту](https://github.com/FrostyCreator/Design-pattern/blob/master/Images/abstract-factory.jpg) 
+![Иллюстрация к проекту](https://github.com/FrostyCreator/Design-pattern/blob/master/Images/Prototype.png) 
 
 ## Когда применять    
 - Когда конкретный тип создаваемого объекта должен определяться динамически во время выполнения
