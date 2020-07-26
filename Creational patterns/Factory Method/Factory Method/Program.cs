@@ -10,11 +10,11 @@ namespace Factory_Method
             Logistic logistic = new RoadLogistic();
 
             Transport transport1 = logistic.CreateTransport();
-            transport1.Deliver();
+            transport1.Deliver();                               //  Доставка на грузовике
 
             logistic = new SeaLogistic();
             Transport transport2 = logistic.CreateTransport();
-            transport2.Deliver();
+            transport2.Deliver();                               //  Доставка на корабле
         }
     }
 }
