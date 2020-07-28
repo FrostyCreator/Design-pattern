@@ -11,8 +11,8 @@ namespace Observer
             NewsPortal portal = new NewsPortal();
             portal.RegisterObserver(new PeopleWithInternet("jora@gmail.com"));
             portal.RegisterObserver(new PeopleWithInternet("vasya@gmail.com"));
-            portal.RegisterObserver(new PeopleWithoutInternet("+7894561564"));
-            portal.RegisterObserver(new PeopleWithoutInternet("+7465123549"));
+            portal.RegisterObserver(new PeopleWithoutInternet("+79620222456"));
+            portal.RegisterObserver(new PeopleWithoutInternet("+79651235495"));
 
             portal.AddNews("новость 1");
             portal.AddNews("новость 2");
