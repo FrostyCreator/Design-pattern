@@ -18,7 +18,7 @@ namespace Decorator
 
             Pizza pizza3 = new BulgerianPizza();
             pizza3 = new TomatoPizza(pizza3);
-            pizza3 = new CheesePizza(pizza3);// болгарская пиццы с томатами и сыром
+            pizza3 = new CheesePizza(pizza3);// болгарская пицца, с томатами, с сыром
             Console.WriteLine("Название: {0}", pizza3.Name);
             Console.WriteLine("Цена: {0}", pizza3.GetCost());
         }
